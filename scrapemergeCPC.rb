@@ -56,7 +56,7 @@ until returnno > numberhits
   patenttextURL = prefixURL + uptoRURL + "&r=" + returnno.to_s + "&p=" + pageno.to_s + afterpURL[1..-1]
 ### TO DO STILL IN THIS CODE
 # Call the page in the patenttextURL
-  #patenttext = cpcpage.get(prefixURL + uptoRURL + "&r=" + returnno.to_s + "&p=" + pageno.to_s + afterpURL[1])
+  #patenttext = cpcpage.get(patenttextURL)
 # Scrape text of patent and output to an aggregate file - maybe best to do this with Ruby string library since theres no real structure on the returned HTML
   #body = patenttext.parser.xpath("//body").text
   #body = body.split("DETAILED DESCRIPTION")[1]
