@@ -10,3 +10,6 @@ The above example will obtain all issued patents under the H04B10/70 CPC group s
 2 - The script then extracts the text from the returned patent numbers that are classified under the give cpc group symbol, and outputs this bulk text into a big text file. Google patents will be invoked for extracting the patent text from the patent numbers. Google patent URL is: https://patents.google.com/ Use Mechanize to fill out the form since Google patents uses the doc type in the result URL, and the doc type is not captured in the PatFT scraped listing from step #1.
 
 3 - The script then executes R (or R can do a system call out to run the scraping script) and follows these steps to perform the word frequency analysis: https://deltadna.com/blog/text-mining-in-r-for-term-frequency/
+
+My Change
+
