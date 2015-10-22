@@ -13,3 +13,5 @@ The above example will obtain all issued patents under the H04B10/70 CPC group s
 
 My Change
 
+Crazy!
+
